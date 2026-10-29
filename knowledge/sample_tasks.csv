@@ -1,0 +1,4 @@
+task_id,title,priority,status,owner
+DEMO-101,Production integration outage,urgent,open,On-call engineer
+DEMO-102,Invoice mismatch,high,open,Billing specialist
+DEMO-103,Customer onboarding,normal,open,Customer success engineer

@@ -1,0 +1,31 @@
+# Local Python state / builds
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Local credentials, secrets, databases and temporary data
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.db
+*.sqlite*
+*.log
+*.tmp
+
+# New knowledge files are PRIVATE by default. Only bundled synthetic samples
+# are tracked. Explicitly review and force-add a safe file if you mean to share it.
+/knowledge/*
+!/knowledge/approvals.md
+!/knowledge/customer_operations.md
+!/knowledge/incident_response.md
+!/knowledge/integrations.md
+!/knowledge/sample_tasks.csv

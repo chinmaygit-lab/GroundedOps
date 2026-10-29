@@ -1,0 +1,10 @@
+[
+  {"question": "What happens after a production integration outage?", "source": "incident_response.md"},
+  {"question": "How long after the incident do we finish the follow-up review?", "source": "incident_response.md"},
+  {"question": "How do we verify signed webhooks and deduplicate them?", "source": "integrations.md"},
+  {"question": "How should cursor based sync handle failed pages?", "source": "integrations.md"},
+  {"question": "Who can approve task completion?", "source": "approvals.md"},
+  {"question": "May an agent issue payments by itself?", "source": "approvals.md"},
+  {"question": "How should an invoice mismatch be handled?", "source": "customer_operations.md"},
+  {"question": "What is the priority for DEMO-101 production outage?", "source": "sample_tasks.csv"}
+]

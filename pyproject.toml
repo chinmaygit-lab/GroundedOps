@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groundedops-rag"
+version = "0.1.2"
+description = "Evidence-first RAG + evaluation with optional Ollama/Gemini models"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["groundedops"]
+
+[tool.setuptools.package-data]
+groundedops = ["web.html", "app.js", "sample_knowledge/*", "sample_evaluation.json"]
